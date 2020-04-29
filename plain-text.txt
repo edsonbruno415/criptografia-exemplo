@@ -1,0 +1,6 @@
+ maneira errada de guardar senhas em banco de dados
+   X  bruno@gmail.com    123abc123
+   X  bruno@gmail.com    403b46f688dd41bb06dc7788f5bd547c (hash de 123abc123)
+   X  jaojao@gmail.com   403b46f688dd41bb06dc7788f5bd547c (hash da mesma senha 123abc123)
+   V  bruno@gmail.com    $2a$10$WQaOn6Nq.KP6LSO7VeGTfuRYPMmczue07J2SI9wcfJpZ59lJFavUy (hash com salt da senha 'devpleno')
+     salt = $2a$10$WQaOn6Nq.KP6LSO7VeGTfu  salt + devpleno = $2a$10$WQaOn6Nq.KP6LSO7VeGTfuRYPMmczue07J2SI9wcfJpZ59lJFavUy
